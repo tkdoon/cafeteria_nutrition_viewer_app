@@ -18,12 +18,12 @@ for index, dish_name in enumerate(os.listdir(img_directory_path)):
     dish_path = img_directory_path+dish_name
     for img_file_name in os.listdir(dish_path):
         if "augmented_9" in img_file_name:
-            shutil.copy2(img_file_name, valid_img_path)
+            shutil.copy2(dish_path+"/"+img_file_name, valid_img_path)
             labelFile = open(valid_txt_path +
                              os.path.splitext(img_file_name)[0] + '.txt', 'w')
 
         else:
-            shutil.copy2(img_file_name, train_img_path)
+            shutil.copy2(dish_path+"/"+img_file_name, train_img_path)
             labelFile = open(train_txt_path +
                              os.path.splitext(img_file_name)[0] + '.txt', 'w')
 
