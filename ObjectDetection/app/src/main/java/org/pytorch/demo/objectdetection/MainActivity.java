@@ -181,8 +181,8 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         });
 
         try {
-            mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "best.torchscript.ptl"));
-            BufferedReader br = new BufferedReader(new InputStreamReader(getAssets().open("mask.txt")));
+            mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "best.torchscript.ptl"));//TODO ptlファイル名の変更
+            BufferedReader br = new BufferedReader(new InputStreamReader(getAssets().open("mask.txt")));//TODO txtファイル名の変更
             String line;
             List<String> classes = new ArrayList<>();
             while ((line = br.readLine()) != null) {
