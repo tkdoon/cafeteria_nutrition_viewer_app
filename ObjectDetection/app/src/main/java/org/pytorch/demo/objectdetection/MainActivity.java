@@ -47,7 +47,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements Runnable {
     private int mImageIndex = 0;
-    private String[] mTestImages = {"test1.png", "test2.jpg", "test3.png"};
+    private String[] mTestImages = {"test1.png", "test2.jpg", "test3.png","10238.jpg","IMG20221115123110.jpg","img.png","imgbanji.jpg"};
 
     private ImageView mImageView;
     private ResultView mResultView;
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
 
         try {
             mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "best.torchscript.ptl"));//TODO ptlファイル名の変更
-            BufferedReader br = new BufferedReader(new InputStreamReader(getAssets().open("mask.txt")));//TODO txtファイル名の変更
+            BufferedReader br = new BufferedReader(new InputStreamReader(getAssets().open("foodrecog.txt")));//TODO txtファイル名の変更
             String line;
             List<String> classes = new ArrayList<>();
             while ((line = br.readLine()) != null) {
