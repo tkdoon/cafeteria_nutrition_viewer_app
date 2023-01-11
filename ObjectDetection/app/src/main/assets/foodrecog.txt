@@ -1,17 +1,17 @@
-bangbangji-tofu
-chiken_shiodare
-hamburg_oroshi_sauce
-hanjuku_tamago
-ichigo_loveberry
-karamiso_butadon
-karamiso_ramen
-kebab_rice
-mugi_gohan
-pho
-potato_daizu_meat_curry
-rice
-sakedon
-satsuma_chiken_liver
-shiromi_fry_tarutaru
-waguri_monburan
+バンバンジー豆腐 133kcal
+チキン塩だれ 294kcal
+ハンバーグおろしソース 272kcal
+半熟卵 83kcal
+苺＆ラズベリームース 87kcal
+辛みそ豚丼 720kcal
+辛味噌ラーメン	577kcal
+ケバブライス
+麦ごはん 316kcal
+フォー
+ポテトと大豆ミートのカレー和え 110kcal
+ライス 340kcal
+鮭丼 554kcal
+薩摩ハーブ鶏のレバー煮 81kcal
+白身フライタルタル 439kcal
+和栗モンブラン　197kcal
 

@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         });
 
         try {
-            mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "best.torchscript.ptl"));//TODO ptlファイル名の変更
+            mModule = LiteModuleLoader.load(MainActivity.assetFilePath(getApplicationContext(), "bestbatchsize4.torchscript.ptl"));//TODO ptlファイル名の変更
             BufferedReader br = new BufferedReader(new InputStreamReader(getAssets().open("foodrecog.txt")));//TODO txtファイル名の変更
             String line;
             List<String> classes = new ArrayList<>();
